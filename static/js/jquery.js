@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $("button").click(function(){
+    $("button.main-button").click(function(){
         console.log($(this).text());
         if($(this).text() == "Projects") {
             $(".skills-section").hide();
@@ -18,6 +18,16 @@ $(document).ready(function(){
             $(".skills-section").show();
         }
 
+
+    });
+
+    $("button.collapsible").click(function(){
+        if($(this).text() == "Student Service Website") {
+            $(".project1").toggle();
+        }
+        else if($(this).text() == "Online Banking Website") {
+            $(".project2").toggle();
+        }
 
     });
 
