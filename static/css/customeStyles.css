@@ -134,6 +134,7 @@ button:hover {
     width: 100%;
 }
 
+<<<<<<< HEAD
 .beg {width: 30%; background-color: #2196F3;}
 .inter {width: 65%; background-color: #f44336;}
 .adv {width: 90%; background-color: #808080;}
@@ -188,4 +189,68 @@ button:hover {
     align-items: center;
     background-color: DodgerBlue;
     height: 500px;
+=======
+.beg {
+    width: 30%; background-color: #2196F3;
+}
+.inter {
+    width: 65%; background-color: #f44336;
+}
+.adv {
+    width: 90%; background-color: #808080;
+}
+
+.each-project-section {
+    box-sizing: border-box;
+    border: 2px solid green;
+    background-color: #151B8D;
+    color: white;
+    width:100%;
+    padding: 5px;
+    margin-bottom: 2%;
+}
+
+.name-header {
+    text-align: left;
+    font-size: 1.05em;
+}
+
+.description-section {
+    text-align: left;
+    text-indent: 50px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #005aff6e;
+  border-radius: 0px;
+}
+
+/*project section*/
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.project1, .project2 {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+>>>>>>> b2fbb771ab39af8224bf9665113ec7f39ecf9d7b
 }
