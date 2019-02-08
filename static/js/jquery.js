@@ -20,7 +20,7 @@ $(document).ready(function(){
 
 
     });
-    
+
     $("button.collapsible").click(function(){
         if($(this).text() == "Student Service Website") {
             $(".project1").toggle();
@@ -30,7 +30,7 @@ $(document).ready(function(){
         }
 
     });
-    
+
     $("").click(function() {
         $(this).hide();
         alert($(this).text());

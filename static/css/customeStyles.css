@@ -134,61 +134,6 @@ button:hover {
     width: 100%;
 }
 
-.beg {width: 30%; background-color: #2196F3;}
-.inter {width: 65%; background-color: #f44336;}
-.adv {width: 90%; background-color: #808080;}
-
-.each-project {
-    box-sizing: border-box;
-    border: 1px solid green;
-    width:100%;
-}
-
-::-webkit-scrollbar {
-  width: 5px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #005aff6e;
-  border-radius: 10px;
-}
-
-.ex1 {
-    border: 2px solid black;
-    padding: 25px;
-    background: url(../../img/bk.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-.ex2 {
-    background: url(static/img/bk.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.ex3 {
-    margin: 0;
-    padding: 0;
-    background: url(static/img/bk.jpg) no-repeat;
-    background-color: #921F21;
-    background-size: cover;
-}
-
-.ex4 {
-    background-color: lightblue;
-    height:100%;
-}
-
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: DodgerBlue;
-    height: 500px;
-
 .beg {
     width: 30%; background-color: #2196F3;
 }
@@ -251,5 +196,4 @@ button:hover {
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
-
 }
