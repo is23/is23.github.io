@@ -31,6 +31,13 @@ $(document).ready(function(){
 
     });
 
+    $("button.works-button").click(function(){
+        if($(this).text() == "Symbolic IO") {
+            $(".work1").toggle();
+        }
+
+    });
+
     $("").click(function() {
         $(this).hide();
         alert($(this).text());
