@@ -125,6 +125,18 @@ h1 {
     border: 1px solid blue;
     box-sizing: border-box;
     margin-top: 2%;
+    overflow-y: hidden;
+    padding: 2%;
+}
+
+.skills-section:hover, .project-section:hover, .work-section:hover  {
+    display: none;
+    margin:auto;
+    width: 90%;
+    height: 60%;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    margin-top: 2%;
     overflow-y: scroll;
     padding: 2%;
 }
@@ -145,13 +157,13 @@ h1 {
 }
 
 .beg {
-    width: 30%; background-color: #2196F3;
+    width: 30%; background-color: #066b82;
 }
 .inter {
-    width: 65%; background-color: #f44336;
+    width: 65%; background-color: #7d1f84;
 }
 .adv {
-    width: 90%; background-color: #808080;
+    width: 90%; background-color: #151b8d;
 }
 
 /*skills section end here*/
